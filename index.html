@@ -5,23 +5,83 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ===== SEO / OG TAGS ===== -->
-<meta name="description" content="GUSTARE - Pizzería Artesanal en Escobar. Pizzas, empanadas y más. Mirá el menú completo y hacé tu pedido por WhatsApp.">
+
+<meta
+  name="description"
+  content="GUSTARE es una pizzería artesanal en Escobar. Pizzas, empanadas y más, recién hechas. Mirá el menú completo, hacé tu pedido online o pedí por WhatsApp."
+>
+
+<meta
+  name="keywords"
+  content="pizzería en Escobar, pizzas en Escobar, empanadas en Escobar, pizza artesanal Escobar, pedir pizza Escobar, delivery pizza Escobar, pedidos de pizza Escobar, GUSTARE"
+>
+
+<meta name="robots" content="index, follow">
+<meta name="author" content="GUSTARE Pizzería Artesanal">
+<meta name="language" content="Spanish">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="GUSTARE | Pizzería Artesanal">
-<meta property="og:description" content="GUSTARE - Pizzería Artesanal. Pizzas, empanadas y más en Escobar. Mirá el menú completo y hacé tu pedido por WhatsApp.">
-<meta property="og:image" content="https://iili.io/nz4IJKx.md.png">
-<meta property="og:image:alt" content="Logo GUSTARE - Pizzería Artesanal">
-<meta property="og:url" content="https://web-pizzeria-gustare.onrender.com">
+
+<meta
+  property="og:title"
+  content="GUSTARE | Pizzas y Empanadas en Escobar"
+>
+
+<meta
+  property="og:description"
+  content="Pizzería artesanal en Escobar. Pizzas, empanadas y más, recién hechas. Mirá el menú completo, hacé tu pedido online o pedí por WhatsApp."
+>
+
+<meta
+  property="og:image"
+  content="https://iili.io/nz4IJKx.md.png"
+>
+
+<meta
+  property="og:image:alt"
+  content="GUSTARE - Pizzería Artesanal en Escobar"
+>
+
+<meta
+  property="og:url"
+  content="https://web-pizzeria-gustare.onrender.com"
+>
+
+<meta
+  property="og:site_name"
+  content="GUSTARE Pizzería Artesanal"
+>
+
+<meta
+  property="og:locale"
+  content="es_AR"
+>
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="GUSTARE | Pizzería Artesanal">
-<meta name="twitter:description" content="GUSTARE - Pizzería Artesanal. Pizzas, empanadas y más en Escobar.">
-<meta name="twitter:image" content="https://iili.io/nz4IJKx.md.png">
+
+<meta
+  name="twitter:title"
+  content="GUSTARE | Pizzas y Empanadas en Escobar"
+>
+
+<meta
+  name="twitter:description"
+  content="Pizzería artesanal en Escobar. Pizzas, empanadas y más. Mirá el menú y hacé tu pedido online o por WhatsApp."
+>
+
+<meta
+  name="twitter:image"
+  content="https://iili.io/nz4IJKx.md.png"
+>
+
+<meta
+  name="twitter:image:alt"
+  content="GUSTARE - Pizzería Artesanal en Escobar"
+>
 
 <meta name="theme-color" content="#101010">
 
-<title>GUSTARE | Pizzería Artesanal</title>
+<title>GUSTARE | Pizzas y Empanadas en Escobar</title>
 
 <style>
 
@@ -87,16 +147,19 @@ button{
   justify-content:center;
 }
 
-/* Luz ambiental */
-
 .landing::before{
   content:"";
+
   position:absolute;
+
   width:700px;
   height:700px;
+
   border-radius:50%;
+
   left:50%;
   top:50%;
+
   transform:translate(-50%,-50%);
 
   background:
@@ -108,14 +171,15 @@ button{
     );
 
   filter:blur(20px);
+
   z-index:-2;
+
   pointer-events:none;
 }
 
-/* Imagen de fondo */
-
 .landing::after{
   content:"";
+
   position:absolute;
   inset:0;
 
@@ -127,6 +191,7 @@ button{
     url("https://iili.io/nz45jPn.md.jpg") center/cover no-repeat;
 
   opacity:.32;
+
   z-index:-3;
 }
 
@@ -136,12 +201,15 @@ button{
 
 .landing-content{
   width:min(900px,92%);
+
   text-align:center;
 
   padding:60px 20px 170px;
 
   display:flex;
+
   flex-direction:column;
+
   align-items:center;
 }
 
@@ -151,9 +219,11 @@ button{
 
 .logo{
   width:min(440px,78vw);
+
   max-height:260px;
 
   object-fit:contain;
+
   display:block;
 
   filter:
@@ -162,8 +232,6 @@ button{
 
   animation:logoNeonPulse 2.8s ease-in-out infinite;
 }
-
-/* Pulso neón */
 
 @keyframes logoNeonPulse{
 
@@ -205,8 +273,11 @@ button{
   color:var(--yellow);
 
   font-size:12px;
+
   font-weight:900;
+
   letter-spacing:4px;
+
   text-transform:uppercase;
 }
 
@@ -214,9 +285,11 @@ h1{
   margin-top:12px;
 
   font-size:clamp(28px,5vw,48px);
+
   line-height:1;
 
   font-weight:1000;
+
   letter-spacing:-1px;
 }
 
@@ -232,6 +305,7 @@ h1 span{
   color:#ddd;
 
   font-size:17px;
+
   line-height:1.6;
 }
 
@@ -243,6 +317,7 @@ h1 span{
   margin-top:30px;
 
   display:flex;
+
   flex-wrap:wrap;
 
   justify-content:center;
@@ -260,11 +335,13 @@ h1 span{
   display:inline-flex;
 
   align-items:center;
+
   justify-content:center;
 
   gap:9px;
 
   font-weight:1000;
+
   letter-spacing:.2px;
 
   transition:
@@ -275,6 +352,7 @@ h1 span{
 
 .btn-main{
   background:var(--yellow);
+
   color:#111;
 
   box-shadow:
@@ -292,11 +370,13 @@ h1 span{
 
 .btn-whatsapp{
   background:var(--green);
+
   color:#062b12;
 }
 
 .btn-whatsapp:hover{
   background:#42e47c;
+
   transform:translateY(-3px);
 }
 
@@ -314,6 +394,7 @@ h1 span{
 
 .phone strong{
   color:#fff;
+
   font-size:18px;
 }
 
@@ -331,6 +412,7 @@ h1 span{
   display:flex;
 
   justify-content:center;
+
   flex-wrap:wrap;
 
   gap:10px;
@@ -360,6 +442,7 @@ h1 span{
 
 .gallery-section{
   width:min(1100px,94%);
+
   margin:0 auto;
 
   padding:75px 0 100px;
@@ -371,6 +454,7 @@ h1 span{
   color:var(--yellow);
 
   font-size:12px;
+
   font-weight:900;
 
   letter-spacing:4px;
@@ -402,8 +486,6 @@ h1 span{
   line-height:1.6;
 }
 
-/* Grid */
-
 .gallery-grid{
   display:grid;
 
@@ -412,8 +494,6 @@ h1 span{
 
   gap:14px;
 }
-
-/* Imagen */
 
 .gallery-card{
   position:relative;
@@ -464,14 +544,12 @@ h1 span{
   transform:scale(1.06);
 }
 
-/* Estado de transición */
-
 .gallery-card.changing img{
   opacity:0;
 }
 
 /* =========================================================
-   MODAL GALERÍA
+   MODAL
 ========================================================= */
 
 .gallery-modal{
@@ -486,6 +564,7 @@ h1 span{
   display:none;
 
   align-items:center;
+
   justify-content:center;
 
   padding:30px;
@@ -497,6 +576,7 @@ h1 span{
 
 .gallery-modal img{
   max-width:92vw;
+
   max-height:88vh;
 
   object-fit:contain;
@@ -527,11 +607,13 @@ h1 span{
   display:flex;
 
   align-items:center;
+
   justify-content:center;
 }
 
 .gallery-close:hover{
   background:var(--yellow);
+
   color:#111;
 }
 
@@ -557,6 +639,7 @@ h1 span{
   display:flex;
 
   align-items:center;
+
   justify-content:center;
 }
 
@@ -571,11 +654,12 @@ h1 span{
 .gallery-prev:hover,
 .gallery-next:hover{
   background:var(--yellow);
+
   color:#111;
 }
 
 /* =========================================================
-   WHATSAPP FLOTANTE
+   WHATSAPP
 ========================================================= */
 
 .whatsapp-float{
@@ -598,6 +682,7 @@ h1 span{
   display:flex;
 
   align-items:center;
+
   justify-content:center;
 
   box-shadow:
@@ -717,6 +802,7 @@ footer{
     margin-top:20px;
 
     font-size:10px;
+
     letter-spacing:3px;
   }
 
@@ -762,8 +848,6 @@ footer{
     padding:7px 10px;
   }
 
-  /* Galería móvil */
-
   .gallery-section{
     width:92%;
 
@@ -801,6 +885,7 @@ footer{
 
   .gallery-modal img{
     max-width:96vw;
+
     max-height:80vh;
   }
 
@@ -853,10 +938,6 @@ footer{
 
 }
 
-/* =========================================================
-   PANTALLAS MUY PEQUEÑAS
-========================================================= */
-
 @media(max-width:380px){
 
   .landing-content{
@@ -898,11 +979,10 @@ footer{
 
   <div class="landing-content">
 
-    <!-- LOGO -->
     <img
       class="logo"
       src="https://iili.io/nz4IJKx.md.png"
-      alt="GUSTARE - Pizzería Artesanal"
+      alt="GUSTARE - Pizzería Artesanal en Escobar"
     >
 
     <div class="kicker">
@@ -920,7 +1000,6 @@ footer{
 
     <div class="actions">
 
-      <!-- MENÚ -->
       <a
         class="btn btn-main"
         href="https://web-pizzeria-gustare.onrender.com"
@@ -928,7 +1007,6 @@ footer{
         🍕 VER MENÚ COMPLETO Y HACER PEDIDO
       </a>
 
-      <!-- WHATSAPP -->
       <a
         class="btn btn-whatsapp"
         href="https://wa.me/5493484591112?text=Hola%20GUSTARE%2C%20quiero%20hacer%20un%20pedido."
@@ -953,19 +1031,13 @@ footer{
 
     </div>
 
-    <!-- TELÉFONO -->
-
     <div class="phone">
 
       <a href="tel:+5493484591112">
-
         📞 <strong>+54 9 3484 59-1112</strong>
-
       </a>
 
     </div>
-
-    <!-- INFORMACIÓN -->
 
     <div class="info">
 
@@ -994,7 +1066,9 @@ footer{
 
   <h2>
     TENTATE CON NUESTRAS<br>
-    <span style="color:var(--yellow)">PIZZAS Y EMPANADAS</span>
+    <span style="color:var(--yellow)">
+      PIZZAS Y EMPANADAS
+    </span>
   </h2>
 
   <p class="gallery-description">
@@ -1014,7 +1088,7 @@ footer{
     >
       <img
         src="https://iili.io/nz6tABa.md.webp"
-        alt="Muzza"
+        alt="Muzza - GUSTARE"
       >
     </article>
 
@@ -1024,7 +1098,7 @@ footer{
     >
       <img
         src="https://iili.io/nz6D6Vn.png"
-        alt="Doble Muzza"
+        alt="Doble Muzza - GUSTARE"
       >
     </article>
 
@@ -1034,7 +1108,7 @@ footer{
     >
       <img
         src="https://iili.io/nz6pho7.md.png"
-        alt="Primavera"
+        alt="Primavera - GUSTARE"
       >
     </article>
 
@@ -1043,8 +1117,8 @@ footer{
       data-index="3"
     >
       <img
-        src="https://iili.io/nz6pho7.md.png"
-        alt="Primavera con Jamón"
+        src="https://iili.io/nzP9p6X.png"
+        alt="Fugazzeta - GUSTARE"
       >
     </article>
 
@@ -1054,7 +1128,7 @@ footer{
 
 
 <!-- =========================================================
-     MODAL GALERÍA
+     MODAL
 ========================================================= -->
 
 <div
@@ -1186,11 +1260,6 @@ const galleryImages = [
   },
 
   {
-    name:"Primavera con Jamón",
-    url:"https://iili.io/nz6pho7.md.png"
-  },
-
-  {
     name:"Fugazzeta",
     url:"https://iili.io/nzP9p6X.png"
   },
@@ -1256,7 +1325,7 @@ let modalIndex = 0;
 
 
 /* =========================================================
-   RANDOM
+   OBTENER 4 IMÁGENES DIFERENTES
 ========================================================= */
 
 function getRandomIndexes(){
@@ -1264,15 +1333,35 @@ function getRandomIndexes(){
   const indexes =
     galleryImages.map((_,i)=>i);
 
-  for(let i=indexes.length-1;i>0;i--){
+  /*
+    Mezclamos Fisher-Yates.
+  */
+
+  for(
+    let i=indexes.length-1;
+    i>0;
+    i--
+  ){
 
     const j =
-      Math.floor(Math.random()*(i+1));
+      Math.floor(
+        Math.random()*(i+1)
+      );
 
-    [indexes[i],indexes[j]] =
-    [indexes[j],indexes[i]];
+    [
+      indexes[i],
+      indexes[j]
+    ] = [
+      indexes[j],
+      indexes[i]
+    ];
 
   }
+
+  /*
+    Las primeras 4 siempre
+    serán índices diferentes.
+  */
 
   return indexes.slice(0,4);
 
@@ -1288,34 +1377,47 @@ function rotateGallery(){
   const newIndexes =
     getRandomIndexes();
 
+
   galleryCards.forEach(
     (card,i)=>{
 
-      card.classList.add("changing");
+      card.classList.add(
+        "changing"
+      );
+
 
       setTimeout(()=>{
 
         const index =
           newIndexes[i];
 
+
         const img =
           card.querySelector("img");
+
 
         img.src =
           galleryImages[index].url;
 
+
         img.alt =
-          galleryImages[index].name;
+          galleryImages[index].name +
+          " - GUSTARE";
+
 
         card.dataset.index =
           index;
 
-        card.classList.remove("changing");
+
+        card.classList.remove(
+          "changing"
+        );
 
       },350);
 
     }
   );
+
 
   visibleIndexes =
     newIndexes;
@@ -1324,7 +1426,7 @@ function rotateGallery(){
 
 
 /* =========================================================
-   INICIAR ROTACIÓN
+   ROTACIÓN AUTOMÁTICA
 ========================================================= */
 
 setInterval(
@@ -1337,32 +1439,44 @@ setInterval(
    ABRIR MODAL
 ========================================================= */
 
-galleryCards.forEach(card=>{
+galleryCards.forEach(
+  card=>{
 
-  card.addEventListener(
-    "click",
-    ()=>{
+    card.addEventListener(
+      "click",
+      ()=>{
 
-      modalIndex =
-        Number(card.dataset.index);
+        modalIndex =
+          Number(
+            card.dataset.index
+          );
 
-      galleryModalImage.src =
-        galleryImages[modalIndex].url;
 
-      galleryModalImage.alt =
-        galleryImages[modalIndex].name;
+        galleryModalImage.src =
+          galleryImages[
+            modalIndex
+          ].url;
 
-      galleryModal.classList.add(
-        "active"
-      );
 
-      document.body.style.overflow =
-        "hidden";
+        galleryModalImage.alt =
+          galleryImages[
+            modalIndex
+          ].name;
 
-    }
-  );
 
-});
+        galleryModal.classList.add(
+          "active"
+        );
+
+
+        document.body.style.overflow =
+          "hidden";
+
+      }
+    );
+
+  }
+);
 
 
 /* =========================================================
@@ -1375,22 +1489,29 @@ function closeGallery(){
     "active"
   );
 
+
   document.body.style.overflow =
     "";
 
 }
+
 
 galleryClose.addEventListener(
   "click",
   closeGallery
 );
 
+
 galleryModal.addEventListener(
   "click",
   event=>{
 
-    if(event.target === galleryModal){
+    if(
+      event.target === galleryModal
+    ){
+
       closeGallery();
+
     }
 
   }
@@ -1407,18 +1528,28 @@ galleryPrev.addEventListener(
 
     event.stopPropagation();
 
+
     modalIndex--;
 
+
     if(modalIndex < 0){
+
       modalIndex =
-        galleryImages.length-1;
+        galleryImages.length - 1;
+
     }
 
+
     galleryModalImage.src =
-      galleryImages[modalIndex].url;
+      galleryImages[
+        modalIndex
+      ].url;
+
 
     galleryModalImage.alt =
-      galleryImages[modalIndex].name;
+      galleryImages[
+        modalIndex
+      ].name;
 
   }
 );
@@ -1434,7 +1565,9 @@ galleryNext.addEventListener(
 
     event.stopPropagation();
 
+
     modalIndex++;
+
 
     if(
       modalIndex >=
@@ -1445,11 +1578,17 @@ galleryNext.addEventListener(
 
     }
 
+
     galleryModalImage.src =
-      galleryImages[modalIndex].url;
+      galleryImages[
+        modalIndex
+      ].url;
+
 
     galleryModalImage.alt =
-      galleryImages[modalIndex].name;
+      galleryImages[
+        modalIndex
+      ].name;
 
   }
 );
@@ -1473,19 +1612,28 @@ document.addEventListener(
 
     }
 
-    if(event.key === "Escape"){
+
+    if(
+      event.key === "Escape"
+    ){
 
       closeGallery();
 
     }
 
-    if(event.key === "ArrowLeft"){
+
+    if(
+      event.key === "ArrowLeft"
+    ){
 
       galleryPrev.click();
 
     }
 
-    if(event.key === "ArrowRight"){
+
+    if(
+      event.key === "ArrowRight"
+    ){
 
       galleryNext.click();
 
